@@ -75,7 +75,7 @@ button a {
 .myhome {
   top: 0px;
   left: 0px;
-  padding: 40px;
+  padding: 10px 50px;
   max-width: 100%;
   background-color: #1a1a1a;
 }
@@ -115,7 +115,7 @@ button a {
   height: 670px;
   margin-top: 0;
   text-align: center;
-  padding: 50px 20px;
+  padding: 10px 50px;
   background-color: #1a1a1a;
 }
 .specialisation h1 {
@@ -160,6 +160,7 @@ footer {
   background-color: #1a1a1a;
   justify-content: space-evenly;
   margin-bottom: 0;
+  padding: 10px 50px;
 }
 .eduexp section {
   background-color: rgba(255, 255, 255, 0.1);
@@ -188,6 +189,7 @@ footer {
   background-color: #1a1a1a;
   height: 650px;
   margin-top: 0;
+  padding: 10px 50px;
   text-align: center;
   padding: 50px 20px;
 }
@@ -267,7 +269,7 @@ footer {
 }
 
 .contact-me {
-  padding: 50px;
+  padding:10px 50px;;
   background-color: #1a1a1a;
   color: #fff;
   text-align: center;
