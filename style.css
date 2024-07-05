@@ -1,10 +1,10 @@
-*{
+* {
   color: white;
+  box-sizing: border-box; /* Ensure padding and border are included in width and height */
 }
-html{
-  
+html {
   background-color: black;
-
+  overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 header {
@@ -37,7 +37,6 @@ nav ul {
 nav ul li {
   margin-right: 50px;
   justify-content: space-between;
-  
 }
 nav ul li a {
   color: rgb(253, 253, 253);
@@ -45,125 +44,117 @@ nav ul li a {
   font-size: 1.2em;
   background-color: black;
 }
-nav ul li a:hover{
-  color:  #e91e63;
+nav ul li a:hover {
+  color: #e91e63;
 }
-#Resume-Download{
+#Resume-Download {
   margin-right: 30px;
   font-size: 30px;
   text-align: center;
-
 }
 
-
-.my-intro{
-    height: 670px;
-    display: flex;
-    background-color: #1a1a1a;
-    
+.my-intro {
+  height: 670px;
+  display: flex;
+  background-color: #1a1a1a;
+  width: 100%;
 }
-button{
+button {
   background-color: #e91e63;
   color: white;
   border-radius: 15px;
   margin-bottom: 5px;
 }
-button a{
-  
+button a {
   background-color: #e91e63;
   color: white;
   font-size: 23px;
 }
 
-
-.myhome{
-    top: 0px;
-    left: 0px;
-    padding: 40px;
-    max-width: 80%; 
-    background-color: #1a1a1a;
+.myhome {
+  top: 0px;
+  left: 0px;
+  padding: 40px;
+  max-width: 100%;
+  background-color: #1a1a1a;
 }
-.myhome h1{
-    font-size: 70px;
-    background-color: #1a1a1a;
+.myhome h1 {
+  font-size: 70px;
+  background-color: #1a1a1a;
 }
-.intro{
-    font-size: 30px;
+.intro {
+  font-size: 30px;
 }
-.myhome p{
-    font-size: 20px;
-    max-width: 90%;
-    margin-top: 60px;
+.myhome p {
+  font-size: 20px;
+  max-width: 90%;
+  margin-top: 60px;
 }
 .myphoto {
-    /* display: flex; */
-    justify-content: center; 
-    align-items: flex-start; 
-    margin-top: 40px; 
-  }
-  
-  .myphoto img {
-    width: 277px; 
-    height: 200;
-    margin-right: 131px;
-    margin-top: 40px;
-    border-radius: 80%;
-  }
-  
-  .icons {
-    padding: 20px;
-    justify-content: space-between;
-  }
-  
-  .icons a {
-    font-size: 25px; 
-    margin-right: 5px; 
-  }
-.specialisation{
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+.myphoto img {
+  width: 377px;
+  height: 400px;
+  margin-right: 131px;
+  margin-top: 40px;
+  border-radius: 80%;
+}
+.icons {
+  padding: 20px;
+  justify-content: space-between;
+}
+.icons a {
+  font-size: 35px;
+  margin-right: 5px;
+}
+.specialisation {
   height: 670px;
   margin-top: 0;
   text-align: center;
   padding: 50px 20px;
   background-color: #1a1a1a;
 }
-.specialisation h1{
+.specialisation h1 {
   font-size: 40px;
   margin-bottom: 50px;
 }
-.specialisation h1 span{
+.specialisation h1 span {
   color: #e91e63;
 }
-.services{
+.services {
   display: flex;
   justify-content: center;
   gap: 50px;
 }
-.service{
+.service {
   max-width: 400px;
 }
-.service .icon{
+.service .icon {
   font-size: 80px;
   margin-bottom: 20px;
   color: #e91e63;
 }
-.service h2{
+.service h2 {
   font-size: 25px;
   margin-bottom: 20px;
 }
-.service p{
+.service p {
   font-size: 20px;
 }
-footer{
+footer {
   text-align: center;
   padding: 20px;
 }
-.social-links a{
-  columns: #fff;
+.social-links a {
+  color: #fff;
   margin: 0 10px;
   font-size: 24px;
   text-decoration: none;
 }
-.eduexp{
+.eduexp {
   display: flex;
   background-color: #1a1a1a;
   justify-content: space-evenly;
@@ -171,114 +162,108 @@ footer{
 }
 .eduexp section {
   background-color: rgba(255, 255, 255, 0.1);
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 40%;
-    transition: background-color 0.3s;
-    height: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 40%;
+  transition: background-color 0.3s;
+  height: 600px;
 }
-.eduexp section:hover{
+.eduexp section:hover {
   background-color: #e91e63;
 }
-.eduexp h2{
+.eduexp h2 {
   font-size: 2.5em;
   text-align: center;
   margin-bottom: 20px;
 }
-.course h3{
+.course h3 {
   font-size: 1.5em;
-
 }
-.course p{
+.course p {
   font-size: 1em;
   font-weight: 300;
 }
-#skills{
+#skills {
   background-color: #1a1a1a;
   height: 650px;
   margin-top: 0;
   text-align: center;
   padding: 50px 20px;
 }
-#skills h1{
+#skills h1 {
   font-size: 40px;
 }
-#skills h1 span{
+#skills h1 span {
   color: #e91e63;
 }
-#skills .services{
+#skills .services {
   align-items: center;
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 10px; 
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
-.projects{
+.projects {
   background-color: #1a1a1a;
   padding: 10px 50px;
   align-items: center;
   height: 670px;
 }
-.projects h1{
+.projects h1 {
   font-size: 50px;
   text-align: center;
 }
-.projects h1 span{
+.projects h1 span {
   color: #e91e63;
 }
-.services-projects{
+.services-projects {
   position: relative;
   width: 60%;
   justify-content: center;
   overflow: hidden;
   height: 70%;
-  margin-left: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.services-inner{
+.services-inner {
   display: flex;
   transition: transform 0.5s ease-in-out;
-  
 }
-.projects-made{
+.projects-made {
   min-width: 100%;
   box-sizing: border-box;
-  
 }
-.projects-made .icon{
+.projects-made .icon {
   font-size: 100px;
   text-align: center;
-
 }
-.projects-made h2{
+.projects-made h2 {
   font-size: 40px;
   text-align: center;
   background-color: blanchedalmond;
   color: black;
   border-radius: 30%;
   box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
-
 }
-.projects-made p{
+.projects-made p {
   font-size: 30px;
 }
-.prev{
+.prev {
   font-size: 40px;
-  position: absolute; 
-  top: 200px; 
-  left: 10px; 
-  height: 200px;
-  box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
-}
-
-.next{
-  font-size: 40px;
-  position: absolute; 
+  position: absolute;
   top: 200px;
-  right: 10px; 
+  left: 10px;
   height: 200px;
   box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
 }
 
-
+.next {
+  font-size: 40px;
+  position: absolute;
+  top: 200px;
+  right: 10px;
+  height: 200px;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+}
 
 .contact-me {
   padding: 50px;
@@ -337,11 +322,6 @@ footer{
 .contact-me button:hover {
   background-color: #d81b60;
 }
-
-
-
-
-
 
 footer {
   background-color: #1a1a1a;
