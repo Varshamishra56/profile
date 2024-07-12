@@ -306,6 +306,8 @@ footer {
   font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 5px;
+  color: #e91e63;
+  font-weight: 900;
 }
 
 .contact-me .form-group textarea {
@@ -321,6 +323,7 @@ footer {
   border-radius: 5px;
   cursor: pointer;
 }
+
 
 .contact-me button:hover {
   background-color: #d81b60;
